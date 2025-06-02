@@ -1,0 +1,31 @@
+openapi: 3.0.1
+info:
+  title: YouTube Transcript API
+  version: 1.0.0
+paths:
+  /get_transcript:
+    post:
+      summary: Get YouTube transcript
+      operationId: get_transcript
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                url:
+                  type: string
+                lang:
+                  type: string
+                  default: en
+      responses:
+        '200':
+          description: Transcript response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  transcript:
+                    type: string
