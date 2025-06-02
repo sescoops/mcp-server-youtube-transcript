@@ -7,9 +7,9 @@
   "auth": { "type": "none" },
   "api": {
     "type": "openapi",
-    "url": "https://YOUR_RENDER_URL/openapi.yaml"
+    "url": "https://youtube-transcript-zapj/openapi.yaml"
   },
-  "logo_url": "https://YOUR_RENDER_URL/logo.png",
-  "contact_email": "you@example.com",
-  "legal_info_url": "https://YOUR_RENDER_URL/legal"
+  "logo_url": "https://youtube-transcript-zapj/logo.png",
+  "contact_email": "michael@pubwave.io",
+  "legal_info_url": "https://youtube-transcript-zapj/legal"
 }
